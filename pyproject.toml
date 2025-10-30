@@ -12,9 +12,6 @@ python = "^3.11"
 jupyter-book = ">=1.0.0"
 jupyterquiz = ">=2.0.6"
 ipykernel = "*"
-pandas = "^2.3.3"
-plotly = "^6.3.1"
-ipywidgets = "^8.1.7"
 
 [build-system]
 requires = ["poetry-core"]

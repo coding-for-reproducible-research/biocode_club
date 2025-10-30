@@ -18,8 +18,6 @@ html:
   use_repository_button: true
   use_edit_page_button: true
   use_issues_button: true
-  extra_js:
-    - "_static/full_width.js"
 
 launch_buttons:
   binderhub_url: "https://mybinder.org"
