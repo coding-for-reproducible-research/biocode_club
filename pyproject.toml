@@ -9,7 +9,7 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.11"
-jupyter-book = ">=1.0.0"
+jupyter-book = "==1.0.4"
 jupyterquiz = ">=2.0.6"
 ipykernel = "*"
 
