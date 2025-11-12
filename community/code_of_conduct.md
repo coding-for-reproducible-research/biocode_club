@@ -1,5 +1,5 @@
 
-# Code of Conduct (Template)
+# Code of Conduct
 
 We are committed to a welcoming, inclusive, and safe community.
 By participating, you agree to follow this Code of Conduct.
@@ -8,5 +8,3 @@ By participating, you agree to follow this Code of Conduct.
 - Use inclusive language.
 - Assume good intent; be open to feedback.
 - Report issues privately to the organizers.
-
-> Replace this with your preferred CoC (e.g., Contributor Covenant) and contact details.
