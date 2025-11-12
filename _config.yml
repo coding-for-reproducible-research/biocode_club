@@ -3,7 +3,7 @@
 # Docs: https://jupyterbook.org/en/stable/customize/config.html
 title: "BioCode" # <-- change this
 author: "BioCode Club" # <-- and this!
-logo: "_static/logo.png" 
+logo: "_static/logo2.png" 
 copyright: "2025"
 
 only_build_toc_files: true
