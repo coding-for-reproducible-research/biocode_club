@@ -15,3 +15,8 @@ parts:
       - file: resources/example_resource/README
         sections:
           - file: resources/example_resource/example_lesson
+  - caption: Exercises 
+    chapters:
+      - file: resources/example_resource/README
+        sections:
+          - file: resources/example_resource/example_lesson
