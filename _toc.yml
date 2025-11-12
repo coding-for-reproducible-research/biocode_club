@@ -15,4 +15,8 @@ parts:
       - file: resources/proj_structure_course/proj_structure_intro.md
         sections:
           - file: resources/proj_structure_course/proj_structure_1.md
-          - file: resources/proj_structure_course/proj_structure_2.md
+          - file: resources/proj_structure_course/proj_structure2.md           
+          - file: resources/proj_structure_course/proj_structure3.md          
+          - file: resources/proj_structure_course/proj_structure4.md          
+          - file: resources/proj_structure_course/proj_structure5.md          
+          - file: resources/proj_structure_course/proj_structure6.md
