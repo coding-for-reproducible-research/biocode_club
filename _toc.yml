@@ -12,6 +12,6 @@ parts:
 
   - caption: Resources
     chapters:
-      - file: resources/example_resource/README
+      - file: resources/example_resource/proj_structure_intro.md
         sections:
           - file: resources/example_resource/example_lesson
