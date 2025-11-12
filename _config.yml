@@ -1,15 +1,15 @@
 
 # Jupyter Book configuration
 # Docs: https://jupyterbook.org/en/stable/customize/config.html
-title: "Research Coding Community" # <-- change this
-author: "Your Community or Organization" # <-- and this!
+title: "BioCode" # <-- change this
+author: "BioCode Club" # <-- and this!
 logo: "_static/logo.png" 
 copyright: "2025"
 
 only_build_toc_files: true
 
 repository:
-  url: https://github.com/coding-for-reproducible-research/RCC_Coding_Club_Template  # <-- and this!
+  url: https://github.com/coding-for-reproducible-research/biocode_club  # <-- and this!
   branch: main
   path_to_book: ""
 
