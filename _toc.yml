@@ -14,4 +14,4 @@ parts:
     chapters:
       - file: resources/proj_structure_course/proj_structure_intro.md
         sections:
-          - file: resources/example_resource/example_lesson
+          - file: resources/proj_structure_course/proj_structure_1.md
