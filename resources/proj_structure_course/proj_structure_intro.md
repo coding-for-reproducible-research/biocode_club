@@ -29,8 +29,6 @@ This course covers the following:
 * Links to other resources to support your workflow development.
 
 
-
-
 ## Why use a standardised workflow structure?
 
 Many biology projects involve code developed under time constraints, often resulting in scripts with names like `final.R`, `new_final.R`, or `final2.R`, and folders such as `data2/` or `results_last_try/`.
