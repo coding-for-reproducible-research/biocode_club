@@ -20,3 +20,4 @@ parts:
           - file: resources/proj_structure_course/proj_structure4.md          
           - file: resources/proj_structure_course/proj_structure5.md          
           - file: resources/proj_structure_course/proj_structure6.md
+          - file: resources/proj_structure_course/proj_structure7.md
