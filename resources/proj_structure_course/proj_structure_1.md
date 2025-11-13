@@ -6,7 +6,7 @@ This section outlines a series of three standard project structures for analytic
 * Extracting exploratory data analysis into a clear, reproducible workflow after obtaining initial results.
 Key features of the templates include:
 * A project `README` which describes how the workflow should be run, the software requirements for running the workflow, and other details. (A full template for the `README` can be found in the next section)
-* A clear separation between datasets that provide the starting point for the workflow (‘raw’ data) and intermediary datasets that are derived during the workflow (‘derived’ data).
+* A clear separation between datasets that provide the starting point for the workflow (`raw` data) and intermediary datasets that are derived during the workflow (`derived` data).
 * Running the workflow as a series of scripts, each of which encapsulates a high-level logical step in the workflow.
   
 The third and last structure can be considered the ‘gold standard’ to aim for, but you can start with whatever level you feel is most accessible. You can also mix and match elements from different templates that are appropriate to your needs.
@@ -41,33 +41,33 @@ Optionally, you may find it’s clearer to include a README in each folder (data
   
 `_experimental/` - this folder contains R scripts / code snippets that are not used in the final pipeline but may otherwise be useful to keep for future use/reference. 
 * The `README.md` file within this folder should provide a brief describe what each file does. It does not need to be very detailed – more just a memory-jogger.
+
 `scripts/` - this folder contains all the scripts required to execute the workflow, from loading in raw data to producing the final pipeline outputs.
 
-* The order in which the scripts are executed, should be documented in the README. It is recommended, though not essential, that the names of the scripts are numbered to reflect the order in which they should be executed.
+* The order in which the scripts are executed, should be documented in the `README`. It is recommended, though not essential, that the names of the scripts are numbered to reflect the order in which they should be executed.
 * Each script must be run from beginning to end as a complete script, i.e. without the need for any manual, interactive intervention. This greatly enhances the reproducibility of the workflow.
-* The scripts/ folder may contain R notebooks / Jupyter notebooks as well as conventional R scripts .
+* The `scripts/` folder may contain R notebooks / Jupyter notebooks as well as conventional R scripts .
 
 `models/` - this folder contains statistical models that are required by or created during the workflow. This may not be relevant for some workflows, in which case it can be left out.
 * Like the `data/` folder, you may wish to have subfolders of `models/` to clearly differentiate between models required by the workflow from the outset and models created as part of the workflow.
 
 `outputs/` - this folder contains results, plots, summary tables etc. that are the outputs of the workflow.
 
-* Remark: multiple related workflows.
+Remark: multiple related workflows.
 In cases where the same project folder is being used to contain multiple, closely related workflows (e.g. for creating results for related papers), then the `README` should make it clear how to run each workflow separately.
 
 You may also find it helpful to clearly demarcate data sets / scripts / models / outputs that are unique to particular workflows. For example:
 * Consider having separate subfolders of output/, models/, data/derived/, etc. for each workflow.
 * Use a naming convention in the scripts/ folder to clearly indicate which scripts are specific to a given workflow.
-* 
 However you do this, the key thing is to be consistent within the project and document the conventions you choose in the README.
 
 ## Level 2: With renv for package versioning
 
 ![Alt text](str2.png)
 
-In this template, all the additional `folders/files` are automatically generated from the renv package and don’t require manual editing. 
+In this template, all the additional `folders/files` are automatically generated from the `renv` package and don’t require manual editing. 
 
-`renv` is an R package for managing dependencies for an R codebase. It provides the capability for precisely specifying the R packages and versions that were used to run the code (recording these in `renv.lock` file) and allows users to create isolated package ‘environments’ that exactly match the spec.
+`renv` is an R package for managing dependencies for an R codebase. It provides the capability for precisely specifying the R packages and versions that were used to run the code (recording these in `renv.lock` file) and allows users to create isolated package `environments` that exactly match the spec.
 
 This is important for reproducibility: users of the code can rerun the analysis using the same packages and versions that the author of the code used.
 
