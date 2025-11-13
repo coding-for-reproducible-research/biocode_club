@@ -21,7 +21,6 @@ parts:
           - file: resources/proj_structure_course/proj_structure5.md          
           - file: resources/proj_structure_course/proj_structure6.md
           - file: resources/proj_structure_course/proj_structure7.md
-          - file: exercises/R/R_exercises_1.Rmd
           
   - caption: Practice!
     chapters: 
