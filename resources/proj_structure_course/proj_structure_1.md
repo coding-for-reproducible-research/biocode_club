@@ -5,7 +5,7 @@ This section outlines a series of three standard project structures for analytic
 * Starting a new computational workflow from scratch. 
 * Extracting exploratory data analysis into a clear, reproducible workflow after obtaining initial results.
 Key features of the templates include:
-* A project README which describes how the workflow should be run, the software requirements for running the workflow, and other details. (A full template for the README can be found in the Appendix.)
+* A project `README` which describes how the workflow should be run, the software requirements for running the workflow, and other details. (A full template for the `README` can be found in the next section)
 * A clear separation between datasets that provide the starting point for the workflow (‘raw’ data) and intermediary datasets that are derived during the workflow (‘derived’ data).
 * Running the workflow as a series of scripts, each of which encapsulates a high-level logical step in the workflow.
   
