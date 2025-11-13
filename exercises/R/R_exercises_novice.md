@@ -8,7 +8,7 @@ You are studying *Drosophila* (fruit flies) in a genetics lab. Each of four vial
 
 You've created a vector recording all the counts.
 
-```{r}
+```
 # Please run the following code:
 flies <- c(23, 17, 28, 21)
 ```
@@ -22,7 +22,7 @@ After counting them, you are now ready to analyse them.
 * Suppose each vial can hold up to 30 flies. Create a new vector called `remaining_space` showing how many flies could still fit in each vial.
 
 
-```{r}
+```
 # help.search() lets you look for R functions or topics by keyword when you don’t know the exact function name.
 
 # Your code here:
@@ -38,7 +38,7 @@ For data frames and subsetting, please see [this course](https://coding-for-repr
 
 You measured expression levels for three genes in four *Drosophila* samples. The data frame looks like this: 
 
-```{r}
+```
 # Please run the code below
 expression <- data.frame(
   Gene = c("CEP290", "GATA2", "IFT190"),
@@ -62,7 +62,7 @@ Tasks:
 * Which gene has the highest average expression? (Use `which.max()`.)
 * Use `subset()` to extract all rows where the average expression is greater than 12.
 
-```{r}
+```
 # Your code here
 
 ```
@@ -74,7 +74,7 @@ For basic visualisation plots, please see [this course](https://coding-for-repro
 
 You measured the wing lengths (in millimetres) of 20 fruit flies from a single population and recorded them: 
 
-```{r}
+```
 # Please run the code below
 # Wing length measurements (mm)
 wing_lengths <- c(2.3, 2.5, 2.4, 2.6, 2.2, 2.8, 2.4, 2.5, 2.7, 2.6, 2.3, 2.9, 2.8, 2.7, 2.6, 2.4, 2.5, 2.3, 2.6, 2.7)
@@ -85,7 +85,7 @@ wing_lengths <- c(2.3, 2.5, 2.4, 2.6, 2.2, 2.8, 2.4, 2.5, 2.7, 2.6, 2.3, 2.9, 2.
 * Create a histogram of `wing_lengths` (hint: use `help(hist)` for more info).
 * Create a boxplot of `wing_lengths` (hint: use `help(boxplot)` for more info).
 
-```{r}
+```
 # Your code here
 
 
@@ -94,7 +94,7 @@ wing_lengths <- c(2.3, 2.5, 2.4, 2.6, 2.2, 2.8, 2.4, 2.5, 2.7, 2.6, 2.3, 2.9, 2.
 * Generate a new set of measurements for a second population `wing_lengths_2`.
 * Create side-by-side boxplots comparing the two populations. 
 
-```{r}
+```
 # Your code here
 
 
@@ -110,7 +110,7 @@ For functions basic syntax, please see [this course](https://coding-for-reproduc
 You are studying the growth of plants under different light conditions.
 After one week, you measured the growth (in cm) of 10 plants.
 
-```{r}
+```
 # Please run the code below
 # Plant growth in cm after one week
 growth <- c(3.5, 5.2, 2.8, 4.6, 5.9, 6.3, 3.1, 4.9, 2.7, 5.5)
@@ -119,7 +119,7 @@ growth <- c(3.5, 5.2, 2.8, 4.6, 5.9, 6.3, 3.1, 4.9, 2.7, 5.5)
 
 * Loop through each plant’s growth value and print a message in the format: "Plant X grew X cm". There are two options: (1) loop directly over values; (2) loop using an index - uses `(i in 1:length(growth)`.
 
-```{r}
+```
 # Run the code below and observe what happens:
 
 # Create a vector
@@ -139,7 +139,7 @@ for (i in 1:length(numbers)) {
 ```
 
 
-```{r}
+```
 # Your code here
 
 
@@ -148,7 +148,7 @@ for (i in 1:length(numbers)) {
 * Loop through each plant’s growth value and print a message `Plant X: grew well` if growth is `>=` 4.5 cm and `Plant X: poor growth` otherwise.
 
 
-```{r}
+```
 # Your code here
 
 
@@ -161,7 +161,7 @@ for (i in 1:length(numbers)) {
 Example:
 `good_growth(growth, 4.5)` should return 6.
 
-```{r}
+```
 # Your code here
 
 
@@ -170,7 +170,7 @@ Example:
 * Bonus challenge:
  * Modify your function so it also prints a short summary: `6 out of 10 plants grew above 4.5 cm.`
 
-```{r}
+```
 # Your code here
 
 
