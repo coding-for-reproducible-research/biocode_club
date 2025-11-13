@@ -1,0 +1,189 @@
+# Introduction
+
+This document contains a series of introductory R exercises. 
+Please complete the code sections marked **"Your code here"**.  
+You can run each code chunk individually in RStudio or knit the document to view all outputs at once.
+
+
+# Resources
+* [R for Data Science](https://r4ds.hadley.nz/)
+* [Exeter University - Coding for Reproducible Research](https://coding-for-reproducible-research.github.io/CfRR_Courses/course_homepages/R.html)
+* [Software Carpentries](https://swcarpentry.github.io/r-novice-inflammation/)
+
+---
+
+## 1. Data Types and Basic Operations
+
+For introductory concepts, please see [this course](https://coding-for-reproducible-research.github.io/CfRR_Courses/individual_modules/introduction_to_r/basic_commands.html).
+
+You are studying *Drosophila* (fruit flies) in a genetics lab. Each of four vials contains a different number of flies after a week of growth.
+
+You've created a vector recording all the counts.
+
+```{r}
+# Please run the following code:
+flies <- c(23, 17, 28, 21)
+```
+
+After counting them, you are now ready to analyse them.
+
+* Check what type of data flies contains using:`typeof(flies)`.
+* Calculate the total number of flies across all vials. Hint: Use `help.search("sum")` to find helpful functions (commands).
+* Compute the average (mean) number of flies.
+* Find how many vials have fewer than the average number of flies.
+* Suppose each vial can hold up to 30 flies. Create a new vector called `remaining_space` showing how many flies could still fit in each vial.
+
+
+```{r}
+# help.search() lets you look for R functions or topics by keyword when you don’t know the exact function name.
+
+# Your code here:
+
+
+```
+
+Just for fun: use `summary(flies)` function and notice the output. 
+
+## 2. Data Frames and Subsetting
+
+For data frames and subsetting, please see [this course](https://coding-for-reproducible-research.github.io/CfRR_Courses/individual_modules/introduction_to_r/data_types.html).
+
+You measured expression levels for three genes in four *Drosophila* samples. The data frame looks like this: 
+
+```{r}
+# Please run the code below
+expression <- data.frame(
+  Gene = c("CEP290", "GATA2", "IFT190"),
+  Sample1 = c(12.4, 7.8, 15.3),
+  Sample2 = c(13.1, 8.6, 14.9),
+  Sample3 = c(11.8, 9.0, 15.7),
+  Sample4 = c(12.9, 8.3, 16.1)
+)
+
+```
+
+Tasks:
+
+* Use `head()` and `str()` to inspect the data frame.
+* Use `names()` or `colnames()` to see the column names..
+* Extract all expression values for the gene `IFT190`.
+* Extract expression values from `Sample2` only.
+* Extract the expression value of `CEP290` in Sample3 (hint: you can use row and column indexing, e.g. `expression[row, column])`.
+* Create a new data frame containing only `GATA2` and `IFT190` rows.
+* Add a new column called `Average` showing the mean expression for each gene across all samples.
+* Which gene has the highest average expression? (Use `which.max()`.)
+* Use `subset()` to extract all rows where the average expression is greater than 12.
+
+```{r}
+# Your code here
+
+```
+
+
+## 3. Basic Visualisation
+
+For basic visualisation plots, please see [this course](https://coding-for-reproducible-research.github.io/CfRR_Courses/individual_modules/introduction_to_r/plots.html).
+
+You measured the wing lengths (in millimetres) of 20 fruit flies from a single population and recorded them: 
+
+```{r}
+# Please run the code below
+# Wing length measurements (mm)
+wing_lengths <- c(2.3, 2.5, 2.4, 2.6, 2.2, 2.8, 2.4, 2.5, 2.7, 2.6, 2.3, 2.9, 2.8, 2.7, 2.6, 2.4, 2.5, 2.3, 2.6, 2.7)
+
+```
+
+
+* Create a histogram of `wing_lengths` (hint: use `help(hist)` for more info).
+* Create a boxplot of `wing_lengths` (hint: use `help(boxplot)` for more info).
+
+```{r}
+# Your code here
+
+
+```
+
+* Generate a new set of measurements for a second population `wing_lengths_2`.
+* Create side-by-side boxplots comparing the two populations. 
+
+```{r}
+# Your code here
+
+
+```
+
+## 4. Control Structures and Functions
+
+For controls structures syntax, please see [this course](https://coding-for-reproducible-research.github.io/CfRR_Courses/individual_modules/introduction_to_r/control_flow.html).
+
+For functions basic syntax, please see [this course](https://coding-for-reproducible-research.github.io/CfRR_Courses/short_courses/r_functions.html).
+
+
+You are studying the growth of plants under different light conditions.
+After one week, you measured the growth (in cm) of 10 plants.
+
+```{r}
+# Please run the code below
+# Plant growth in cm after one week
+growth <- c(3.5, 5.2, 2.8, 4.6, 5.9, 6.3, 3.1, 4.9, 2.7, 5.5)
+
+```
+
+* Loop through each plant’s growth value and print a message in the format: "Plant X grew X cm". There are two options: (1) loop directly over values; (2) loop using an index - uses `(i in 1:length(growth)`.
+
+```{r}
+# Run the code below and observe what happens:
+
+# Create a vector
+numbers <- c(10, 20, 30)
+
+# Option 1
+for (i in numbers) {
+  print(i)
+}
+
+# Option 2
+for (i in 1:length(numbers)) {
+  print(i)
+}
+
+
+```
+
+
+```{r}
+# Your code here
+
+
+```
+
+* Loop through each plant’s growth value and print a message `Plant X: grew well` if growth is `>=` 4.5 cm and `Plant X: poor growth` otherwise.
+
+
+```{r}
+# Your code here
+
+
+```
+
+
+* Write a function called `good_growth()` that:
+ * Takes a vector of growth measurements and a threshold value as input.
+ * Returns the number of plants that grew above the threshold.
+Example:
+`good_growth(growth, 4.5)` should return 6.
+
+```{r}
+# Your code here
+
+
+```
+
+* Bonus challenge:
+ * Modify your function so it also prints a short summary: `6 out of 10 plants grew above 4.5 cm.`
+
+```{r}
+# Your code here
+
+
+```
