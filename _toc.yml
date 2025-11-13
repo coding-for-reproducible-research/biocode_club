@@ -24,4 +24,6 @@ parts:
           
   - caption: Exercises
     chapters: 
-      - file: exercises/R/R_exercises_novice.md
+      - file: exercises/R/R_exercises_intro.md
+        sections:
+          - file: exercises/R/R_exercises_novice.md
