@@ -1,7 +1,5 @@
 # Exercises
 
----
-
 ## 1. Data Types and Basic Operations
 
 For introductory concepts, please see [this course](https://coding-for-reproducible-research.github.io/CfRR_Courses/individual_modules/introduction_to_r/basic_commands.html).
