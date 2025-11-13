@@ -22,7 +22,7 @@ parts:
           - file: resources/proj_structure_course/proj_structure6.md
           - file: resources/proj_structure_course/proj_structure7.md
           
-  - caption: Exercises
+  - caption: Practice!
     chapters: 
       - file: exercises/R/R_exercises_intro.md
         sections:
