@@ -1,4 +1,4 @@
-## What to store under version control?
+# What to store under version control?
 
 If you are using the version control system Git, then be aware that some of the files / folders in the templates above should be ignored i.e. specified in a `.gitignore` file at the top level of the project. 
 
