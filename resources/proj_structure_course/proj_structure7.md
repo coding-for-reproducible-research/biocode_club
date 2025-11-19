@@ -1,4 +1,4 @@
-## Other resources
+# Other resources
 
 [A guide for writing markdown](https://coding-for-reproducible-research.github.io/CfRR_Courses/individual_modules/markdown_with_python/3-Markdown-Fundamentals.html) – a reference for writing markdown documents.
 
