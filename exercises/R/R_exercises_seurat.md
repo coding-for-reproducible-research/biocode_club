@@ -98,23 +98,23 @@ Before analysing single-cell data, we must remove low-quality cells that can dis
 
 To distinguish these, we rely on three key QC metrics automatically stored in the Seurat object:
 
-1. nFeature_RNA - The number of genes detected per cell.
+1. `nFeature_RNA` - The number of genes detected per cell.
 
 Too low - likely an empty or poor-quality cell
 
 Too high - often doublets
 
-2. nCount_RNA - The total number of reads per cell (library size).
+2. `nCount_RNA` - The total number of reads per cell (library size).
 
 Very low - failed cell
 
 Very high - potential doublet or unusually deep sequencing
 
-3. percent.mt - The proportion of reads mapping to mitochondrial genes.
+3. `percent.mt` - The proportion of reads mapping to mitochondrial genes.
 
 High mitochondrial percentage indicates stressed or dying cells
 
-To compute percent.mt, we identify mitochondrial genes (usually starting with "MT-") and calculate the fraction of counts they contribute.
+To compute `percent.mt`, we identify mitochondrial genes (usually starting with "MT-") and calculate the fraction of counts they contribute.
 
 After visualising these metrics, we decide on thresholds and remove low-quality cells.
 
