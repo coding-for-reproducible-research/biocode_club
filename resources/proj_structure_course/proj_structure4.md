@@ -1,4 +1,4 @@
-## How to start a new workflow using a standard structure
+# How to start a new workflow using a standard structure
 
 If you're beginning a new project, it's the perfect opportunity to start with a logical, modular structure according to one of the standard templates. Here are some tips to get you going.
 
