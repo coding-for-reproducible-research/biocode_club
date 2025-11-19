@@ -1,4 +1,4 @@
-## Maintaining healthy pipelines
+# Maintaining healthy pipelines
 
 Maintaining good pipelines requires continued attention: just like how a plant needs to be regularly watered, nurtured and pruned to keep it healthy! Try to build up these habits to keep your pipeline organized, tidy and working correctly.
 
