@@ -1,8 +1,7 @@
-# R exercises for beginners
+# R exercises
 
-This document contains a series of introductory R exercises. 
-Please complete the code sections marked **"Your code here"**.  
-You can run each code chunk individually in RStudio or knit the document to view all outputs at once.
+This document contains a series of R exercises. 
+Please complete the code sections marked **"Your code here"**.
 
 
 # Resources
