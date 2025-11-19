@@ -1,4 +1,4 @@
-## Project structure templates
+# Project structure templates
 
 This section outlines a series of three standard project structures for analytical workflows. They build on top of each other to provide successive enhancements towards creating a reproducible workflow. They aim to support: 
 
