@@ -9,7 +9,6 @@ parts:
       - file: community/about
       - file: community/join
       - file: community/code_of_conduct
-
   - caption: Resources
     chapters:
       - file: resources/proj_structure_course/proj_structure_intro.md
@@ -21,8 +20,7 @@ parts:
           - file: resources/proj_structure_course/proj_structure5.md          
           - file: resources/proj_structure_course/proj_structure6.md
           - file: resources/proj_structure_course/proj_structure7.md
-          
-  - caption: Practice!
+  - caption: Practice
     chapters:
       - file: exercises/R/R_exercises_intro.md
         sections:
