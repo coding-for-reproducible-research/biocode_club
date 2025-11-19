@@ -1,4 +1,4 @@
-# Exercises
+# Exercises: Basics
 
 ## 1. Data Types and Basic Operations
 
