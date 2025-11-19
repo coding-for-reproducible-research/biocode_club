@@ -1,4 +1,4 @@
-## How to adapt your existing code into a standard structure
+# How to adapt your existing code into a standard structure
 
 The following steps can help you turn a collection of scripts into one of the standard project structures.
 
