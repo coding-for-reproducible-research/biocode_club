@@ -1,4 +1,4 @@
-## A README template  
+# A README template  
 
 This is an example of what a README file should include: a brief overview of the project, installation instructions, usage examples, details on dependencies, and any other relevant information to help others understand and reproduce your work.
 
